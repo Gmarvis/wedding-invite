@@ -76,6 +76,11 @@ footer p {
   text-align: center;
 }
 
+footer p a {
+  text-align: center;
+  color: #fff;
+}
+
 .nav-container a {
   padding: 8px 16px;
   text-decoration: none;
@@ -88,11 +93,6 @@ footer p {
   color: white;
   padding: 40px 0 20px;
   text-align: center;
-}
-
-footer p a {
-  text-align: center;
-  color: #fff;
 }
 
 .nav-container a:hover {
@@ -192,7 +192,7 @@ footer p a {
 /* invite section */
 
 .invite {
-  background-image: url(../images/flowers.jpg);
+  background-image: url("../images/flowers.jpg");
   filter: grayscale(60%);
   background-position: center;
   background-repeat: no-repeat;
@@ -207,7 +207,6 @@ footer p a {
   color: #fff;
   padding: 18%;
   letter-spacing: 4px;
-  /* font-size: 18px; */
 }
 
 .invite-content h1 {
@@ -290,6 +289,7 @@ footer p a {
     padding-left: 10px;
     padding-right: 10px;
   }
+
   .details {
     flex-direction: column;
   }
