@@ -49,8 +49,8 @@ body {
 
 @media screen and (max-width: 770px) {
   .hero-section {
-  padding-top: 10px;
-  font-size: 25px;
+    padding-top: 10px;
+    font-size: 25px;
   }
 }
 
@@ -89,7 +89,7 @@ body {
 
 @media screen and (max-width: 496px) {
   .sticky-navbar {
-  display: none;
+    display: none;
   }
 }
 
@@ -148,31 +148,31 @@ body {
 }
 
 .content img {
-  align-items: center;
-  margin: 32px;
-  /* width: 975px; */
-  width: 90%;
-  border-radius: 5px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-filter: grayscale(80%);
+    align-items: center;
+    margin: 32px;
+    /* width: 975px; */
+    width: 90%;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: grayscale(80%);
 }
 
 @media screen and (max-width: 770px) {
   .content {
-  padding-left: 10px;
-  padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .content img {
-  width: 100%;
+    width: 100%;
   }
 
   .content p {
-  padding-left: 10px;
-  padding-right: 10px;
-  width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
   }
 }
 
@@ -208,9 +208,9 @@ body {
 
 @media screen and (max-width: 770px) {
   .invite-content h1 {
-  margin-top: 10px;
-  font-weight:400;
-  font-size: 65px;
+    margin-top: 10px;
+    font-weight:400;
+    font-size: 65px;
   }
 }
 
@@ -266,21 +266,21 @@ body {
 
 @media screen and (max-width: 770px) {
   .location img {
-  width: 100%;
+    width: 100%;
   }
 
   .location {
-  background-color: #ffdddd;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
-  padding-left: 10px;
-  padding-right: 10px;
+    background-color: #ffdddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   
   .details {
-  flex-direction: column;
+    flex-direction: column;
   }
 }
 
