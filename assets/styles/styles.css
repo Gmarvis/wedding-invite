@@ -163,7 +163,6 @@ footer p a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  "-webkit-filter": grayscale(80%);
 }
 
 @media screen and (max-width: 770px) {
