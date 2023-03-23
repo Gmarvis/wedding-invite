@@ -18,8 +18,8 @@ body {
 }
 
 .hero-section {
-  background-image: url(../images/couple-1853499_1920.jpg);
-  filter: grayscale( 50%);
+  background-image: url("../images/couple-1853499_1920.jpg");
+  filter: grayscale(50%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +106,6 @@ body {
 .content {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   padding-left: 64px;
   padding-right: 64px;
 }
@@ -118,7 +117,7 @@ body {
 }
 
 .content p {
-  margin: 20px 0 0 0;
+  margin: 20px 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,8 +128,8 @@ body {
 }
 
 .btn {
-  margin: 62px 0 62px 0;
-  margin: 15px 0px;
+  margin: 62px 0;
+  margin: 15px 0;
   color: #fff;
   padding: 12px 24px;
   font-size: 18px;
@@ -138,7 +137,7 @@ body {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transform: .3s ease;
+  transform: 0.3s ease;
   margin-bottom: 81px;
 }
 
@@ -148,15 +147,14 @@ body {
 }
 
 .content img {
-    align-items: center;
-    margin: 32px;
-    /* width: 975px; */
-    width: 90%;
-    border-radius: 5px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-filter: grayscale(80%);
+  align-items: center;
+  margin: 32px;
+  width: 90%;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: grayscale(80%);
 }
 
 @media screen and (max-width: 770px) {
