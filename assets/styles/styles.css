@@ -3,7 +3,6 @@
 * {
   margin: 0;
   padding: 0;
-  /* outline: 1px solid green; */
 }
 
 html {
@@ -20,6 +19,7 @@ body {
 
 .hero-section {
   background-image: url(../images/couple-1853499_1920.jpg);
+  filter: grayscale( 50%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -50,7 +50,6 @@ body {
 @media screen and (max-width: 770px) {
   .hero-section {
   padding-top: 10px;
-  color: red;
   font-size: 25px;
   }
 }
@@ -181,6 +180,7 @@ body {
 
 .invite {
   background-image: url(../images/flowers.jpg);
+  filter: grayscale(60%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -232,7 +232,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  -webkit-filter: grayscale(80%);
+  filter: grayscale(70%);
 }
 
 .location h1 {
