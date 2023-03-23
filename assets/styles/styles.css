@@ -78,6 +78,17 @@ body {
   text-align: center;
 }
 
+footer p {
+  color: white;
+  padding: 40px 0 20px;
+  text-align: center;
+}
+
+footer p a {
+  text-align: center;
+  color: #fff;
+}
+
 .nav-container a:hover {
   background-color: #ccc;
 }
@@ -330,13 +341,3 @@ justify-content: center;
   text-align: center;
 }
 
-footer p {
-  color: white;
-  padding: 40px 0 20px;
-  text-align: center;
-}
-
-footer p a {
-  text-align: center;
-  color: #fff;
-}
