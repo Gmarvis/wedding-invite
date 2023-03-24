@@ -61,6 +61,7 @@ body {
   background-color: #ffffff75;
   width: 100%;
   position: fixed;
+  z-index: 1;
 }
 
 .nav-container {
@@ -163,6 +164,7 @@ footer p a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  filter: grayscale(80%);
 }
 
 @media screen and (max-width: 770px) {
